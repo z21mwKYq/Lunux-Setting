@@ -49,7 +49,7 @@ URxvt.cursorColor2:     red
 !-*- Копирование -*-
 URxvt.perl-ext-common: default,selection-to-clipboard,pasta,matcher,keyboard-select
 URxvt.keysym.M-u:     perl:url-select:select_next
-URxvt.url-launcher:   /usr/bin/firefox
+URxvt.url-launcher:   /usr/bin/chromium
 URxvt.underlineURLs:  True
 URxvt.matcher.button: 1
 URxvt.keysym.M-Escape:perl:keyboard-select:activate
