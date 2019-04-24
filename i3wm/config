@@ -173,8 +173,11 @@ bar {
 exec setxkbmap "us,ru" ",winkeys" "grp:alt_shift_toggle"
 # Фон
 exec feh --bg-scale /home/vladimir/Изображения/sochi_park_1.jpg.1
-# Назначение окон для программ 
+# Назначение окон для программ
 assign [class="Pcmanfm"] $ws5
 assign [class="Chromium"] $ws2
 assign [class="vlc"] $ws3
+# Темы для Rofi
+bindsym $mod+shift+d exec --no-startup-id "rofi -show run -display-run '>>> ' -width 400 -theme /home/vladimir/.config/rofi/solarized_alternate"
+bindsym $mod+shift+f exec --no-startup-id "rofi -width 400 -show window -display-window '$$$ ' -theme /home/vladimir/.config/rofi/solarized_alternate"
 # exec --no-startup-id i3-msg 'workspace 3:Videos; exec chromium'
