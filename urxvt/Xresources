@@ -40,8 +40,8 @@ URxvt*color15:    #D0D0D0
 
 
 ! Установка шрифта "Droid Sans Mono Italic" с размером 20 пунктов c сглаживанием
-URxvt.font: xft:Droid Sans Mono:pixelsize=12:antialias=true
-URxvt.boldFont: xft:Droid Sans Mono:bold:pixelsize=12:antialias=true
+URxvt.font: xft:DejaVU Sans Mono:pixelsize=12:antialias=true
+URxvt.boldFont: xft:DejaVU Sans Mono:bold:pixelsize=12:antialias=true
 
 
 ! Цвет фона
@@ -61,12 +61,16 @@ URxvt*scrollBar: false
 
 
 ! подгружаем плагины
- URxvt.perl-ext-common:  default,matcher,url-select
+ URxvt.perl-ext-common:  default,matcher,url-select,clipboard
+
+!Копирование из буфера
+URxvt.keysym.Control-Insert: perl:clipboard:copy
+URxvt.keysym.Shift-Insert: perl:clipboard:paste
 
 ! Псевдопрозрачность
 URxvt.transparent: true
 ! Уменьшение (-100 .. -1) или увеличение (0 .. 100) яркости прозрачного фона
-URxvt.shading: 25
+URxvt.shading: 15
 
 ! первоночальный размер окна
 URxvt.geometry: 80x25
