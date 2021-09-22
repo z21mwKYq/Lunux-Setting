@@ -16,7 +16,7 @@ exec --no-startup-id feh --bg-scale /home/vladimir/pictures/backround.jpg
 exec --no-startup-id exec compton -b
 exec --no-startup-id xrandr --dpi 100
 exec --no-startup-id flameshot
-exec --no-startup-id dropbox start
+#exec --no-startup-id dropbox start
 exec --no-startup-id xrdb /home/vladimir/.Xresources
 #Управление громкостью
 # выключение звука по умолчанию
