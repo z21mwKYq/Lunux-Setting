@@ -28,7 +28,7 @@ exec --no-startup-id xrdb /home/vladimir/.Xresources
 
 
 # Отступы между открытыми окнами
-gaps inner 0
+gaps inner 5
 
 # Включает умные рамки, когда открыто одно окно рамки выключаются
 smart_borders on
