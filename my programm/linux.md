@@ -16,4 +16,7 @@
 2. Chrome
 3. youtube-dl
 4. wget
+5. uget
+6. Brave
+
 
