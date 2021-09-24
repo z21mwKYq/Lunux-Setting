@@ -11,6 +11,7 @@
 9. vlc
 10. calcurse
 11. Digicam
+12. pgp 
 ## Интернет
 1. Brave
 2. Chrome
@@ -18,5 +19,8 @@
 4. wget
 5. uget
 6. Brave
+7. mutt
+8. transmission
+9. openssh 
 
 
