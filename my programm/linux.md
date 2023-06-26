@@ -11,7 +11,10 @@
 9. vlc
 10. calcurse
 11. Digicam
-12. pgp 
+12. pgp
+13. deskreem - расширение рабочего стола на мобильнике
+14. qrcp - передача файлов между устройстами по wifi
+15. zulucrypt
 ## Интернет
 1. Brave
 2. Chrome
